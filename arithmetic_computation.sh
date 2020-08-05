@@ -10,3 +10,6 @@ read c
 echo $a
 echo $b
 echo $c
+
+comp1=$((a+b*c))
+echo $comp1
