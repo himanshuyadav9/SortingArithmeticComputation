@@ -13,3 +13,6 @@ echo $c
 
 comp1=$((a+b*c))
 echo $comp1
+
+comp2=$((a*b+c))
+echo $comp2
