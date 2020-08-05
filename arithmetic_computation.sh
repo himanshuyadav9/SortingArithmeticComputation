@@ -23,3 +23,11 @@ echo $comp3
 comp4=`awk "BEGIN{print ($a%$b+$c)}"`
 echo $comp4
 
+declare -A dictionary
+dictionary[compute1]=$comp1
+dictionary[compute2]=$comp2
+dictionary[compute3]=$comp3
+dictionary[compute4]=$comp4
+
+arr=(`printf '%s\n' "${dictionary[@]}" | sort -n`)
+echo ${arr[@]}
