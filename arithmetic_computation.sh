@@ -19,3 +19,7 @@ echo $comp2
 
 comp3=`awk "BEGIN{print ($c+$a/$b)}"`
 echo $comp3
+
+comp4=`awk "BEGIN{print ($a%$b+$c)}"`
+echo $comp4
+
